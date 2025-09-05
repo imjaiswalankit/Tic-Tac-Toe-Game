@@ -1,0 +1,62 @@
+*{
+    margin :0;
+    padding: 0;
+}
+body{
+    background-color:#92DCE5 ;
+    text-align: center;
+}
+.container {
+    height: 70vh;/*box ka 70% view height visible ho hamesh */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex; /*  1 line mein laa do */
+    flex-wrap: wrap;  /* agar line mein jagah nhi hai to 2nd line mein aa jao */
+
+ justify-content: center;
+ align-items: center;
+ gap: 2.5vmin;
+}
+.box{
+     height: 18vmin;
+     width: 18vmin; 
+     border-radius: 1rem;
+     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+     font-size: 8vmin;
+     color: #2B2D42;
+     background-color:#DFF1F4;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:#384357;
+    color: white;
+    border-radius: 1rem;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:#384357;
+    color: white;
+    border-radius: 1rem;
+}
+#msg {
+    color: #3b3808;
+    font-weight: bold;
+    font-size: 8vmin;
+    display: flex;
+    justify-content: center;
+}
+.msg-container {
+   height: 30vmin;
+}
+.hide{
+     display: none;
+}
